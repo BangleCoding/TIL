@@ -97,4 +97,27 @@ return 이 단독으로 사용될 경우 None 값을 돌려준다.
 
 for i, name in enumerate(['body','foo','bar']):
     print(i,name)
+    
+#0 body
+#1 foo
+# bar
+```
+
+
+```python 
+#eval
+#실행 가능한 문자열(1+2, 'hi'+'a'등등)을 입력으로 받아 문자열을 실행한 결과값을 리턴
+eval('1+2')
+# 3
+
+eval("'hi'+'a'")
+#'hia'
+
+eval('divmod(4,3)')
+#(1,1)
+
+```
+
+```python 
+
 ```
